@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90446aebc04f3c344a9e69b95e958414, type: 3}
+  m_Name: TestCard
+  m_EditorClassIdentifier: 
+  ID: 0
+  Cost: 0
+  Name: 
+  Description: 
+  okayMinimum: 0
+  goodMinimum: 0
+  Rhythms:
+  - direction: 0
+    timesDuration: 0
+    beat: 1
+  - direction: 1
+    timesDuration: 0
+    beat: 2
+  - direction: 2
+    timesDuration: 0
+    beat: 3
+  - direction: 3
+    timesDuration: 0
+    beat: 5
+  - direction: 3
+    timesDuration: 0
+    beat: 7
+  - direction: 3
+    timesDuration: 0
+    beat: 9
+  - direction: 0
+    timesDuration: 0
+    beat: 10
+  OnFail: []
+  OnOkay: []
+  OnGood: []
+  OnPerfect: []
+  clip: {fileID: 0}
+  BPM: 120
