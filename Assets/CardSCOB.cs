@@ -16,6 +16,7 @@ public class CardSCOB : ScriptableObject
     public int Cost;
     public string Name;
     public string Description;
+    public GameObject ObjModel;
     public int okayMinimum;
     public int goodMinimum;
     public List<RhythmUwU> Rhythms;
